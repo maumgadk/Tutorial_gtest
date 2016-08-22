@@ -80,3 +80,12 @@ bool IsOdd(int n){
     return false;
     
 }
+
+//Return true iff n is positive
+bool IsPositive(int n){
+
+    if (n >=0) return true;
+
+    return false;
+
+}

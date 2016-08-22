@@ -155,6 +155,16 @@ TEST(IsOddTest, Trivial){
     ASSERT_TRUE(IsOdd(1));
     ASSERT_FALSE(IsOdd(0));
 }
+
+
+TEST(IsPositivTest, Positive){
+    ASSERT_TRUE(IsPositive(1));
+    ASSERT_FALSE(IsPositive(-1));
+}
+
+
+
+
 // Step 3. Call RUN_ALL_TESTS() in main().
 //
 // We do this by linking in src/gtest_main.cc file, which consists of
