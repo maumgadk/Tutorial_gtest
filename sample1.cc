@@ -73,10 +73,22 @@ bool IsOdd(int n){
     // make n into postive number
     if (n < 0) n = n* -1;
    
-    // return false iff is even 
+    // return false iff n is even 
     if( n%2 == 0) return false;
        
     // n is no longer odd
     return true;
     
+}
+
+bool IsEven(int n){
+    
+    // make n into postive number
+    if (n < 0) n = n* -1;
+   
+    // return true iff n is even 
+    if( n%2 == 0) return true;
+       
+    // n is no longer even 
+    return return false 
 }
