@@ -140,7 +140,7 @@ TEST(IsPrimeTest, Positive) {
   EXPECT_TRUE(IsPrime(23));
 }
 
-
+// Tests IsOdd ft
 TEST(IsOddTest, Positive){
     ASSERT_TRUE(IsOdd(1));
     ASSERT_FALSE(IsOdd(4));
@@ -151,7 +151,7 @@ TEST(IsOddTest, Negative){
     ASSERT_FALSE(IsOdd(-2));
 }
 
-//Test IsEven
+//Test IsEven ft
 TEST(IsEvenTest, Trivial){
     ASSERT_TRUE(IsEven(0));
     ASSERT_FALSE(IsEven(1));
@@ -168,10 +168,6 @@ TEST(IsEvenTest, Negative){
     ASSERT_FALSE(IsEven(-1));
 }
 
-TEST(IsEvenTest, Trivial){
-    ASSERT_TRUE(IsEven(2));
-    ASSERT_TRUE(IsEven(1));
-}
 // Step 3. Call RUN_ALL_TESTS() in main().
 
 //
