@@ -70,13 +70,13 @@ bool IsPrime(int n) {
 
 //Return true iff n is odd number
 bool IsOdd(int n){
-    // make n into postive number
+    // make n a postive number
     if (n < 0) n = n* -1;
    
-    // return false iff is even 
-    if( n%2 == 0) return false;
+    // return true iff is odd 
+    if( n%2 != 0) return true;
        
-    // n is no longer odd
-    return true;
+    // n is no longer odd 
+    return false;
     
 }
