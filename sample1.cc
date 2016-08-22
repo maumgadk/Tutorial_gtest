@@ -87,5 +87,17 @@ bool IsPositive(int n){
     if (n >=0) return true;
 
     return false;
-
 }
+
+bool IsEven(int n){
+    
+    // make n into postive number
+    if (n < 0) n = n* -1;
+   
+    // return true iff n is even 
+    if( n%2 == 0) return true;
+       
+    // n is no longer even 
+    return false;
+}
+

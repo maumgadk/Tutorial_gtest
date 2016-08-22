@@ -140,7 +140,7 @@ TEST(IsPrimeTest, Positive) {
   EXPECT_TRUE(IsPrime(23));
 }
 
-
+// Tests IsOdd ft
 TEST(IsOddTest, Positive){
     ASSERT_TRUE(IsOdd(1));
     ASSERT_FALSE(IsOdd(4));
@@ -151,9 +151,21 @@ TEST(IsOddTest, Negative){
     ASSERT_FALSE(IsOdd(-2));
 }
 
-TEST(IsOddTest, Trivial){
-    ASSERT_TRUE(IsOdd(1));
-    ASSERT_FALSE(IsOdd(0));
+//Test IsEven ft
+TEST(IsEvenTest, Trivial){
+    ASSERT_TRUE(IsEven(0));
+    ASSERT_FALSE(IsEven(1));
+}
+
+
+TEST(IsEvenTest, Positive){
+    ASSERT_TRUE(IsEven(2));
+    ASSERT_FALSE(IsEven(5));
+}
+
+TEST(IsEvenTest, Negative){
+    ASSERT_TRUE(IsEven(-2));
+    ASSERT_FALSE(IsEven(-1));
 }
 
 //Tests IsPositive
@@ -163,9 +175,8 @@ TEST(IsPositiveTest, Positive){
 }
 
 
-
-
 // Step 3. Call RUN_ALL_TESTS() in main().
+
 //
 // We do this by linking in src/gtest_main.cc file, which consists of
 // a main() function which calls RUN_ALL_TESTS() for us.

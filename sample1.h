@@ -43,4 +43,7 @@ bool IsPrime(int n);
 bool IsOdd(int n);
 
 bool IsPositive(int n);
+
+bool IsEven(int n);
+
 #endif  // GTEST_SAMPLES_SAMPLE1_H_
