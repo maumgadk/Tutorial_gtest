@@ -81,13 +81,6 @@ bool IsOdd(int n){
     
 }
 
-//Return true iff n is positive
-bool IsPositive(int n){
-
-    if (n >=0) return true;
-
-    return false;
-}
 
 bool IsEven(int n){
     
@@ -98,6 +91,14 @@ bool IsEven(int n){
     if( n%2 == 0) return true;
        
     // n is no longer even 
+    return false;
+}
+
+//Return true iff n is positive
+bool IsPositive(int n){
+
+    if (n >=0) return true;
+
     return false;
 }
 
