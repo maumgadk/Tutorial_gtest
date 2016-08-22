@@ -1,1 +1,14 @@
 *.o
+*.swp
+*.make
+*.cmake
+Makefile
+*.log	
+*.bin
+*.out
+GTestSample
+CMakeCache.txt
+./CMakeFiles/*.*
+./CMakeFiles/*
+./CMakeFiles/.*
+
