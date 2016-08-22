@@ -68,6 +68,7 @@ bool IsPrime(int n) {
   return true;
 }
 
+/*
 int main(int argv, char** argc){
 
 	bool isTenPrime = IsPrime(10);
@@ -75,3 +76,4 @@ int main(int argv, char** argc){
 	else  std::cout << "10 is not prime number" << std::endl;
 	return 1;
 }
+*/
