@@ -156,8 +156,8 @@ TEST(IsOddTest, Trivial){
     ASSERT_FALSE(IsOdd(0));
 }
 
-
-TEST(IsPositivTest, Positive){
+//Tests IsPositive
+TEST(IsPositiveTest, Positive){
     ASSERT_TRUE(IsPositive(1));
     ASSERT_FALSE(IsPositive(-1));
 }
