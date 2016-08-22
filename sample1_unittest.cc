@@ -46,7 +46,6 @@
 #include <limits.h>
 #include "sample1.h"
 #include "gtest/gtest.h"
-//include <gtest/gtest.h>
 
 
 // Step 2. Use the TEST macro to define your tests.
@@ -141,6 +140,21 @@ TEST(IsPrimeTest, Positive) {
   EXPECT_TRUE(IsPrime(23));
 }
 
+
+TEST(IsOddTest, Positive){
+    ASSERT_TRUE(IsOdd(1));
+    ASSERT_FALSE(IsOdd(4));
+}
+
+TEST(IsOddTest, Negative){
+    ASSERT_TRUE(IsOdd(-1));
+    ASSERT_FALSE(IsOdd(-2));
+}
+
+TEST(IsOddTest, Trivial){
+    ASSERT_TRUE(IsOdd(1));
+    ASSERT_FALSE(IsOdd(0));
+}
 // Step 3. Call RUN_ALL_TESTS() in main().
 //
 // We do this by linking in src/gtest_main.cc file, which consists of

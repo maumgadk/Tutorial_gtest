@@ -68,3 +68,10 @@ bool IsPrime(int n) {
   return true;
 }
 
+bool IsOdd(int n){
+    if (n < 0) n = n* -1;
+    
+    if( n%2 == 0) return false;
+        return true;
+    
+}

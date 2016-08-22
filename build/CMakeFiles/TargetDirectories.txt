@@ -1,0 +1,3 @@
+/Users/heartles/Project/Tutorial_gtest/build/CMakeFiles/edit_cache.dir
+/Users/heartles/Project/Tutorial_gtest/build/CMakeFiles/rebuild_cache.dir
+/Users/heartles/Project/Tutorial_gtest/build/CMakeFiles/GTestSample.dir

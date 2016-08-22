@@ -40,4 +40,5 @@ int Factorial(int n);
 // Returns true iff n is a prime number.
 bool IsPrime(int n);
 
+bool IsOdd(int n);
 #endif  // GTEST_SAMPLES_SAMPLE1_H_
