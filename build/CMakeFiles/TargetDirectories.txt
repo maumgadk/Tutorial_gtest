@@ -1,3 +1,4 @@
-/Users/heartles/Project/Tutorial_gtest/build/CMakeFiles/edit_cache.dir
-/Users/heartles/Project/Tutorial_gtest/build/CMakeFiles/rebuild_cache.dir
-/Users/heartles/Project/Tutorial_gtest/build/CMakeFiles/GTestSample.dir
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/build/CMakeFiles/edit_cache.dir
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/build/CMakeFiles/rebuild_cache.dir
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/build/CMakeFiles/RunSample.dir
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/build/CMakeFiles/GTestSample.dir

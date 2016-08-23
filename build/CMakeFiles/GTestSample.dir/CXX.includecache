@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/Users/heartles/Project/Tutorial_gtest/run_sample1_gtest.cc
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/run_sample1_gtest.cc
 gtest/gtest.h
-/Users/heartles/Project/Tutorial_gtest/gtest/gtest.h
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/gtest/gtest.h
 
-/Users/heartles/Project/Tutorial_gtest/sample1.cc
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample1.cc
 iostream
 -
 sample1.h
-/Users/heartles/Project/Tutorial_gtest/sample1.h
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample1.h
 
-/Users/heartles/Project/Tutorial_gtest/sample1.h
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample1.h
 
-/Users/heartles/Project/Tutorial_gtest/sample1_unittest.cc
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample1_unittest.cc
 limits.h
 -
 sample1.h
-/Users/heartles/Project/Tutorial_gtest/sample1.h
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample1.h
 gtest/gtest.h
-/Users/heartles/Project/Tutorial_gtest/gtest/gtest.h
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/gtest/gtest.h
 
 /usr/local/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
