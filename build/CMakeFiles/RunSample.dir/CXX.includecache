@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample1.cc
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample.cc
 iostream
 -
-sample1.h
-/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample1.h
+sample.h
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample.h
 
-/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample1.h
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample.h
 
-/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample1_main.cc
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample_main.cc
 iostream
 -
-sample1.h
-/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample1.h
+sample.h
+/Users/taemeonbae/Project/googletest/googletest/samples/Tutorial_gtest/sample.h
 

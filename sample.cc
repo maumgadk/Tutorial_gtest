@@ -32,7 +32,7 @@
 // Author: wan@google.com (Zhanyong Wan)
 
 #include <iostream>
-#include "sample1.h"
+#include "sample.h"
 
 // Returns n! (the factorial of n).  For negative n, n! is defined to be 1.
 int Factorial(int n) {

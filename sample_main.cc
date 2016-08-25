@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "sample1.h"
+#include "sample.h"
 
 int main(int argv, char** argc){
 

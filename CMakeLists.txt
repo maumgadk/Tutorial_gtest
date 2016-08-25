@@ -9,15 +9,15 @@ Project(RunSample)
 message(STATUS "Hi!")
 include_directories("/usr/local/include")
 set(GTEST_LIB_DIR /usr/local/lib)
-set(srcs sample1_main.cc sample1.cc)
+set(srcs sample_main.cc sample.cc)
 set( CMAKE_VERBOSE_MAKEFILE on )
 set(CMAKE_BUILD_TYPE Release)
 set(CMAKE_BUILD_DIR ./build)
 link_directories(${GTEST_LIB_DIR})
 
-add_executable(GTestSample run_sample1_gtest.cc sample1.cc sample1_unittest.cc)
+add_executable(GTestSample run_sample_gtest.cc sample.cc sample_unittest.cc)
 target_link_libraries(GTestSample libgtest.a)
 
-add_executable(RunSample sample1_main.cc sample1.cc)
+add_executable(RunSample sample_main.cc sample.cc)
 
 
